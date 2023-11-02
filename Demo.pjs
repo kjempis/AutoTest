@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{6B9EE200-AC71-4AE3-B312-7AAAF2A9D909}">
+	<children>
+		<child name="Demo" key="{5594AAA7-486B-45FD-AAF9-32973C192FFF}" path="Demo\Demo.mds" />
+		<child name="TestComplete ADO" key="{9726C2A5-3DC1-46A9-B33B-88AAEA281A5C}" path="TestComplete ADO\TestComplete ADO.mds" />
+	</children>
+	<testItems key="{55C36704-1E8C-4F88-AA75-38531B4A9BE0}">
+		<children>
+			<testItem key="{5594AAA7-486B-45FD-AAF9-32973C192FFF}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{9726C2A5-3DC1-46A9-B33B-88AAEA281A5C}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{59A98C4E-F01D-42FC-8D7E-DC44D23ED2AD}" />
+	<analysis key="{CAE8A0E1-62CC-46DD-9CF1-6D21645FEBBE}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>

@@ -1,0 +1,1105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{74DBCA18-BBE8-4BA0-BD4E-4924E55C6DB5}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{9A66A226-7C7E-460F-8809-C2B8150C1D1D}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{AD79E77A-007C-40FC-94C1-08DFEFF2A74E}">
+								<Image FileName="1616411406" Left="0" Top="0" Right="1695" Bottom="1361" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageDemoWebShop" Key="{4AEC13E9-5C05-42EF-BDC3-A3CCBC274548}">
+								<Image FileName="1616411406" Left="8" Top="118" Right="1687" Bottom="1353" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demowebshop.tricentis.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkLogIn" Key="{B27D8E47-610B-4976-98A1-EBC931B245A0}">
+										<Image FileName="1616411406" Left="1069" Top="188" Right="1112" Bottom="207" />
+										<TypeInfo Item0="{3F9618F1-2D30-433E-B289-13EC38F9E1DA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Log in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;ico-login&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div[2]//ul/li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeBooks" Key="{4D73F3FA-1E96-4569-98A3-6EE8F5AE1566}">
+										<Image FileName="1522103216" Left="384" Top="298" Right="1294" Bottom="337" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Books&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkApparelShoes" Key="{D7957F30-CA20-4D5A-9DE8-21B2E625300E}">
+										<Image FileName="1522103216" Left="743" Top="308" Right="875" Bottom="328" />
+										<TypeInfo Item0="{3F9618F1-2D30-433E-B289-13EC38F9E1DA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Apparel &amp; Shoes&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/ul/li[4]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkTorsteinKjempholCapgeminiTes" Key="{08476C85-D6FE-4F70-B38D-B303ED2E7F44}">
+										<Image FileName="-854904655" Left="699" Top="182" Right="923" Bottom="201" />
+										<TypeInfo Item0="{3F9618F1-2D30-433E-B289-13EC38F9E1DA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;torstein.kjemphol@capgemini.testorama&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//ul/li/a[contains(@class, &apos;account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLogOut" Key="{55FE6BEE-C4B7-4CE8-80B8-E76F0E090E0C}">
+										<Image FileName="1105136106" Left="942" Top="182" Right="992" Bottom="201" />
+										<TypeInfo Item0="{3F9618F1-2D30-433E-B289-13EC38F9E1DA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Log out&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;ico-logout&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div[2]//ul/li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLogin" Key="{3B4F2EAF-F4D8-4B1B-A243-F1A2E84C5BBE}">
+								<Image FileName="1616411406" Left="8" Top="118" Right="1687" Bottom="1353" />
+								<TypeInfo Item0="{5B72ACAF-D5F8-4EF2-B525-3026918B6160}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demowebshop.tricentis.com/login" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textboxEmail" Key="{7C1A519F-BCF8-4948-A251-CF5CB2FF9FB0}">
+										<Image FileName="-242573980" Left="1078" Top="438" Right="1254" Bottom="457" />
+										<TypeInfo Item0="{36164BA8-D442-4D58-8581-8716D688D4B2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Email:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#Email" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;Email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{47F744BF-5D85-4A44-BE38-243904FF8D45}">
+										<Image FileName="425323397" Left="1078" Top="477" Right="1254" Bottom="496" />
+										<TypeInfo Item0="{36164BA8-D442-4D58-8581-8716D688D4B2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Password:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#Password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;Password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[3]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonLogIn" Key="{A0C77AE8-28C0-4A0A-9FB5-6343C08F9A55}">
+										<Image FileName="1808766470" Left="1210" Top="594" Right="1262" Bottom="616" />
+										<TypeInfo Item0="{6C55E863-4AC0-4926-AC05-701A11AB79F9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Log in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//form//input[contains(@class, &apos;button-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageApparelShoes" Key="{54998FC8-8A97-455A-978D-063F3D3C03D7}">
+								<Image FileName="1616411406" Left="8" Top="118" Right="1687" Bottom="1353" />
+								<TypeInfo Item0="{5B72ACAF-D5F8-4EF2-B525-3026918B6160}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demowebshop.tricentis.com/apparel-shoes" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeBlueJeans" Key="{D3916433-29AB-4C29-83BB-61FFDFE89D23}">
+										<Image FileName="-125493350" Left="919" Top="621" Right="1074" Bottom="649" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[contains(., &apos;Blue Jeans&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div/h2[contains(@class, &apos;product-title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div/h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkBlueJeans" Key="{6BC8064E-B4EE-4175-A96B-CF7B505618F8}">
+										<Image FileName="-125493350" Left="919" Top="621" Right="1074" Bottom="649" />
+										<TypeInfo Item0="{3F9618F1-2D30-433E-B289-13EC38F9E1DA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Blue Jeans&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div[2]/h2/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkBlueJeans2" Key="{C51F2748-9840-4709-8D47-4BA116DA4221}">
+										<Image FileName="-304098333" Left="800" Top="615" Right="955" Bottom="643" />
+										<TypeInfo Item0="{3F9618F1-2D30-433E-B289-13EC38F9E1DA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[3]/div/div[2]/h2/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageBlueJeans" Key="{EACA1FA0-5B41-49B4-872D-5347CE3FC7BD}">
+								<Image FileName="1616411406" Left="8" Top="118" Right="1687" Bottom="1353" />
+								<TypeInfo Item0="{5B72ACAF-D5F8-4EF2-B525-3026918B6160}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demowebshop.tricentis.com/blue-jeans" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formProductDetailsForm" Key="{AC994C15-F0B1-47C9-A93B-CB0A67E1D4E7}">
+										<Image FileName="-1674062377" Left="595" Top="403" Right="1283" Bottom="1165" />
+										<Selectors>
+											<Selector>
+												<Value Value="#product-details-form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Blue Jeans&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;blue-jeans&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div[4]/div/div/div/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxQty" Key="{6387B270-3BBE-4D59-B65B-CBE704F5F7CD}">
+										<Image FileName="-1674062377" Left="962" Top="606" Right="1008" Bottom="625" />
+										<TypeInfo Item0="{36164BA8-D442-4D58-8581-8716D688D4B2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Qty:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#addtocart_36_EnteredQuantity" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;addtocart_36.EnteredQuantity&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonAddToCart" Key="{3D134D70-EFB9-43FE-991D-3DB88431CAA4}">
+										<Image FileName="-2139873723" Left="1047" Top="599" Right="1149" Bottom="627" />
+										<TypeInfo Item0="{6C55E863-4AC0-4926-AC05-701A11AB79F9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#add-to-cart-button-36" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div//input[@value=&apos;Add to cart&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div//div[6]//input[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//form//input[contains(@class, &apos;button-1&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTopcartlink" Key="{9306EE1C-42A6-4800-990D-58C4F5F1C99D}">
+										<Image FileName="-1530617830" Left="1117" Top="188" Right="1224" Bottom="207" />
+										<Selectors>
+											<Selector>
+												<Value Value="#topcartlink" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Shopping cart&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkShoppingCart" Key="{6E396905-B26F-49C9-BBD9-5A0FF244057E}">
+										<Image FileName="-1530617830" Left="1117" Top="188" Right="1222" Bottom="207" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Shopping cart&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//ul/li/a[contains(@class, &apos;ico-cart&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;topcartlink&apos;]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeShoppingCart" Key="{97E35223-EC63-4A74-B283-161A4BB872AA}">
+										<Image FileName="-1530617830" Left="1127" Top="188" Right="1201" Bottom="202" />
+										<TypeInfo Item0="{3F9618F1-2D30-433E-B289-13EC38F9E1DA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Shopping cart&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;topcartlink&apos;]/a/span[contains(@class, &apos;cart-label&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageCart" Key="{F510D949-26E5-4E6B-8B37-D491AED91493}">
+								<Image FileName="1616411406" Left="8" Top="118" Right="1687" Bottom="1353" />
+								<TypeInfo Item0="{5B72ACAF-D5F8-4EF2-B525-3026918B6160}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demowebshop.tricentis.com/cart" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="selectCountry" Key="{DBB0019C-D29A-4EB3-9503-0C43001649F6}">
+										<Image FileName="-2095948966" Left="782" Top="633" Right="919" Bottom="652" />
+										<TypeInfo Item0="{46221D44-AB63-41E9-A480-A25F71FF80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[@id=(//label[.=&apos;Country:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#CountryId" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonEstimateShipping" Key="{5D35F218-3A83-4B6B-8B06-838427675F47}">
+										<Image FileName="1364060865" Left="784" Top="702" Right="903" Bottom="724" />
+										<TypeInfo Item0="{6C55E863-4AC0-4926-AC05-701A11AB79F9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;estimateshipping&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;Estimate shipping&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]/div/div[2]/div//input[contains(@class, &apos;button-2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//div[2]//div[4]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonCheckout" Key="{A0EBB3DE-B272-4974-ABE9-3906D23DACD3}">
+										<Image FileName="1692465111" Left="1177" Top="736" Right="1297" Bottom="768" />
+										<TypeInfo Item0="{6C55E863-4AC0-4926-AC05-701A11AB79F9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#checkout" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@name=&apos;checkout&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Checkout&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@value=&apos;checkout&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;button-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonClose" Key="{15DFD2FB-C7B8-4DBB-9AD1-31E4C9F1C368}">
+										<Image FileName="381575394" Left="972" Top="670" Right="993" Bottom="690" />
+										<TypeInfo Item0="{6C55E863-4AC0-4926-AC05-701A11AB79F9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;close&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@title=&apos;close&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;ui-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="checkboxTermsofservice" Key="{9473D172-CC81-4B6A-9616-9DA9216F4C44}">
+										<Image FileName="-1463770422" Left="992" Top="688" Right="1005" Bottom="701" />
+										<TypeInfo Item0="{C0BFCC35-8F7A-4256-AA73-4AC25D3C4963}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#termsofservice" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;termsofservice&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//input[@type=&apos;checkbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageOnepagecheckout" Key="{E0BD6A47-48B2-4A22-AEFC-B811E71B240D}">
+								<Image FileName="1616411406" Left="8" Top="118" Right="1687" Bottom="1353" />
+								<TypeInfo Item0="{5B72ACAF-D5F8-4EF2-B525-3026918B6160}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demowebshop.tricentis.com/onepagecheckout" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeCheckoutSteps" Key="{71A2CA00-A82C-4BC3-85ED-A083094210A7}">
+										<Image FileName="-1712603062" Left="393" Top="390" Right="1303" Bottom="889" />
+										<Selectors>
+											<Selector>
+												<Value Value="#checkout-steps" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol[contains(., &apos;1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol[contains(@class, &apos;opc&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formCoBillingForm" Key="{09A1F854-DC7F-4DB7-8E0B-19A6CF4A65CF}">
+										<Image FileName="1712785045" Left="424" Top="432" Right="1272" Bottom="682" />
+										<Selectors>
+											<Selector>
+												<Value Value="#co-billing-form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;First name:&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;checkout-step-billing&apos;]/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//ol/li[@id=&apos;opc-billing&apos;]//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectCountry" Key="{26B59A0B-EF5F-4974-B3E5-5F49B3B934DF}">
+										<Image FileName="1712785045" Left="533" Top="519" Right="802" Bottom="538" />
+										<TypeInfo Item0="{46221D44-AB63-41E9-A480-A25F71FF80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[@id=(//label[.=&apos;Country:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#BillingNewAddress_CountryId" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[5]/select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxCity" Key="{179998B2-F5D3-44C2-BF9A-8BAC5041A69D}">
+										<Image FileName="-1224087179" Left="533" Top="557" Right="708" Bottom="576" />
+										<TypeInfo Item0="{36164BA8-D442-4D58-8581-8716D688D4B2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;City:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#BillingNewAddress_City" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;BillingNewAddress.City&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[7]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxAddress1" Key="{2AF76219-084C-490A-BDBE-80A54FC02BCF}">
+										<Image FileName="1024884924" Left="533" Top="576" Right="708" Bottom="595" />
+										<TypeInfo Item0="{36164BA8-D442-4D58-8581-8716D688D4B2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Address 1:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#BillingNewAddress_Address1" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;BillingNewAddress.Address1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[8]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxZipPostalCode" Key="{05861E94-8D34-4C6D-A16C-649E04750703}">
+										<Image FileName="105818988" Left="533" Top="614" Right="708" Bottom="633" />
+										<TypeInfo Item0="{36164BA8-D442-4D58-8581-8716D688D4B2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Zip / postal code:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#BillingNewAddress_ZipPostalCode" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;BillingNewAddress.ZipPostalCode&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[10]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxPhoneNumber" Key="{DBA6B72D-1870-4610-B3CB-881A625CB132}">
+										<Image FileName="-449879697" Left="533" Top="633" Right="708" Bottom="652" />
+										<TypeInfo Item0="{36164BA8-D442-4D58-8581-8716D688D4B2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Phone number:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#BillingNewAddress_PhoneNumber" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;BillingNewAddress.PhoneNumber&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[11]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonContinue" Key="{FA4B3DA8-1580-41D3-92D2-47B48AB4A1EE}">
+										<Image FileName="446506599" Left="424" Top="721" Right="492" Bottom="743" />
+										<TypeInfo Item0="{6C55E863-4AC0-4926-AC05-701A11AB79F9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-billing&apos;]//input[@value=&apos;Continue&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-billing&apos;]//input[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-billing&apos;]//input[contains(@class, &apos;button-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;billing-buttons-container&apos;]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonContinue2" Key="{49A6F75F-4AD2-4E86-B711-50B4ACD3D9C7}">
+										<Image FileName="1543054564" Left="424" Top="673" Right="492" Bottom="695" />
+										<TypeInfo Item0="{6C55E863-4AC0-4926-AC05-701A11AB79F9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-shipping&apos;]//input[@value=&apos;Continue&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-shipping&apos;]//input[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-shipping&apos;]//input[contains(@class, &apos;button-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;shipping-buttons-container&apos;]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formCoShippingMethodForm" Key="{7554FD2C-17AB-421F-A70C-045B95E622FA}">
+										<Image FileName="-1229519703" Left="424" Top="486" Right="1272" Bottom="720" />
+										<Selectors>
+											<Selector>
+												<Value Value="#co-shipping-method-form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Ground (10.00)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;checkout-step-shipping-method&apos;]/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//ol/li[@id=&apos;opc-shipping_method&apos;]//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeGround1000" Key="{3C5446CD-6C7C-4184-8042-B9ADFF5EEDF9}">
+										<Image FileName="2072404124" Left="425" Top="487" Right="1271" Bottom="622" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Ground (10.00)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;method-list&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;checkout-shipping-method-load&apos;]//ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li//form//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="radiobuttonGround1000" Key="{ACF45119-3B00-4AF4-9BFC-E84FEB33BA0D}">
+										<Image FileName="2072404124" Left="435" Top="495" Right="448" Bottom="508" />
+										<TypeInfo Item0="{E52FABB6-1D80-4FB5-BF9A-2B30946D1E53}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Ground (10.00)&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;Ground___Shipping.FixedRate&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#shippingoption_0" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//ul/li//input[@name=&apos;shippingoption&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;opc-shipping_method&apos;]//form//ul/li//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonContinue3" Key="{8E21A6A0-4B1C-4C4F-9345-86822ACBD37B}">
+										<Image FileName="-1000396022" Left="424" Top="698" Right="492" Bottom="720" />
+										<TypeInfo Item0="{6C55E863-4AC0-4926-AC05-701A11AB79F9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-shipping_method&apos;]//form//input[@value=&apos;Continue&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-shipping_method&apos;]//form//input[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-shipping_method&apos;]//form//input[contains(@class, &apos;button-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;shipping-method-buttons-container&apos;]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formCoPaymentMethodForm" Key="{82F7B954-70F2-4AF9-89E7-BF1AADEF5D9D}">
+										<Image FileName="-689753017" Left="424" Top="513" Right="1272" Bottom="749" />
+										<Selectors>
+											<Selector>
+												<Value Value="#co-payment-method-form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Cash On Delivery (COD) (7.00)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;checkout-step-payment-method&apos;]/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//ol/li[@id=&apos;opc-payment_method&apos;]//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCashOnDeliveryCod700" Key="{7A15409D-3FDB-4202-BF52-DCD4EC7B82FF}">
+										<Image FileName="-689753017" Left="425" Top="514" Right="1271" Bottom="748" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Cash On Delivery (COD) (7.00)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-payment_method&apos;]//form//ul[contains(@class, &apos;method-list&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;checkout-payment-method-load&apos;]//ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-payment_method&apos;]//form//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="radiobuttonCreditCard" Key="{8FBE26C1-938E-464F-894F-BD535C43E43E}">
+										<Image FileName="-689753017" Left="493" Top="651" Right="506" Bottom="664" />
+										<TypeInfo Item0="{E52FABB6-1D80-4FB5-BF9A-2B30946D1E53}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=&apos;paymentmethod_2&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;Payments.Manual&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#paymentmethod_2" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li[3]//input[@name=&apos;paymentmethod&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;opc-payment_method&apos;]//form//ul/li[3]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonContinue4" Key="{7CF69540-1FB1-4509-8A32-AA876AA00350}">
+										<Image FileName="-1546794715" Left="424" Top="824" Right="492" Bottom="846" />
+										<TypeInfo Item0="{6C55E863-4AC0-4926-AC05-701A11AB79F9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-payment_method&apos;]//input[@value=&apos;Continue&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-payment_method&apos;]//input[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-payment_method&apos;]//input[contains(@class, &apos;button-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;payment-method-buttons-container&apos;]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formCoPaymentInfoForm" Key="{56279080-BD25-4779-92B3-BECB2A880250}">
+										<Image FileName="-1636529321" Left="424" Top="540" Right="1272" Bottom="667" />
+										<Selectors>
+											<Selector>
+												<Value Value="#co-payment-info-form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Select credit card&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;checkout-step-payment-info&apos;]/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]//ol/li[@id=&apos;opc-payment_info&apos;]//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxCardholderName" Key="{3DC34632-1FDD-4BE2-B48C-E5D6E6170B1F}">
+										<Image FileName="-1636529321" Left="732" Top="570" Right="903" Bottom="589" />
+										<TypeInfo Item0="{36164BA8-D442-4D58-8581-8716D688D4B2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Cardholder name&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#CardholderName" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;CardholderName&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxCardNumber" Key="{CFFD7810-CAC5-4AA3-B7FB-D584E614D962}">
+										<Image FileName="1524536510" Left="732" Top="589" Right="903" Bottom="608" />
+										<TypeInfo Item0="{36164BA8-D442-4D58-8581-8716D688D4B2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Card number&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#CardNumber" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;CardNumber&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[3]/td/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectExpireyear" Key="{04DCD974-281C-432F-85B8-914968D20DA9}">
+										<Image FileName="-510035936" Left="781" Top="608" Right="835" Bottom="627" />
+										<TypeInfo Item0="{46221D44-AB63-41E9-A480-A25F71FF80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ExpireYear" />
+											</Selector>
+											<Selector>
+												<Value Value="//select[@name=&apos;ExpireYear&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxCardCode" Key="{C2BA799B-47B5-44DD-8FE2-00E103C66E2B}">
+										<Image FileName="747515585" Left="732" Top="627" Right="798" Bottom="646" />
+										<TypeInfo Item0="{36164BA8-D442-4D58-8581-8716D688D4B2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Card code&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#CardCode" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;CardCode&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[5]/td/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonContinue5" Key="{60BEBBC7-7A9A-4C48-85B8-36EADC6B3DF1}">
+										<Image FileName="-1921013128" Left="424" Top="742" Right="492" Bottom="764" />
+										<TypeInfo Item0="{6C55E863-4AC0-4926-AC05-701A11AB79F9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-payment_info&apos;]//input[@value=&apos;Continue&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-payment_info&apos;]//input[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-payment_info&apos;]//input[contains(@class, &apos;button-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;payment-info-buttons-container&apos;]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectCreditcardtype" Key="{2DE818B4-5189-4E1E-96F5-8602B77341A6}">
+										<Image FileName="278590542" Left="732" Top="551" Right="827" Bottom="570" />
+										<TypeInfo Item0="{46221D44-AB63-41E9-A480-A25F71FF80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#CreditCardType" />
+											</Selector>
+											<Selector>
+												<Value Value="//select[@name=&apos;CreditCardType&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//select[contains(@class, &apos;dropdownlists&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;checkout-payment-info-load&apos;]//tr/td/select" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td/select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="radiobuttonPurchaseOrder" Key="{71DCC2F2-F7A2-477F-963B-22CBB1647843}">
+										<Image FileName="-2034386412" Left="372" Top="704" Right="385" Bottom="717" />
+										<TypeInfo Item0="{E52FABB6-1D80-4FB5-BF9A-2B30946D1E53}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=&apos;paymentmethod_3&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;Payments.PurchaseOrder&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#paymentmethod_3" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li[4]//input[@name=&apos;paymentmethod&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li[4]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxPoNumber" Key="{0DF87939-8ED4-4287-9419-8538A8C58EC0}">
+										<Image FileName="-561154158" Left="414" Top="545" Right="585" Bottom="564" />
+										<TypeInfo Item0="{36164BA8-D442-4D58-8581-8716D688D4B2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;PO Number&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#PurchaseOrderNumber" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;PurchaseOrderNumber&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode6000" Key="{8DADE417-E959-477C-B923-7DFF061CB944}">
+										<Image FileName="-1677916268" Left="1108" Top="1021" Right="1138" Bottom="1035" />
+										<TypeInfo Item0="{3F9618F1-2D30-433E-B289-13EC38F9E1DA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//strong[.=&apos;60.00&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;checkout-confirm-order-load&apos;]//tr/td//strong" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td//strong" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode5000" Key="{D4C4AF3D-FADE-474B-A63E-7436DDF665E8}">
+										<Image FileName="-1677916268" Left="1108" Top="958" Right="1138" Bottom="972" />
+										<TypeInfo Item0="{3F9618F1-2D30-433E-B289-13EC38F9E1DA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr/td//span[contains(@class, &apos;product-price&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;checkout-confirm-order-load&apos;]//span/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[2]/span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode1000" Key="{579B4CCC-802B-4953-ACE8-F49073BC934A}">
+										<Image FileName="-1677916268" Left="1108" Top="979" Right="1138" Bottom="993" />
+										<TypeInfo Item0="{3F9618F1-2D30-433E-B289-13EC38F9E1DA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;10.00&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td//span[contains(@class, &apos;product-price&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;checkout-confirm-order-load&apos;]//tr[2]/td[2]/span/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td[2]/span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonConfirm" Key="{21680E42-5339-45F9-919F-F29CBB36B18F}">
+										<Image FileName="232778728" Left="296" Top="1098" Right="358" Bottom="1120" />
+										<TypeInfo Item0="{6C55E863-4AC0-4926-AC05-701A11AB79F9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Confirm&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-confirm_order&apos;]//input[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-confirm_order&apos;]//input[contains(@class, &apos;button-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;confirm-order-buttons-container&apos;]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol/li[@id=&apos;opc-confirm_order&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageDemowebshopTricentisComCheck" Key="{DC5D7A30-45BA-4CDA-9014-DEB55BED277C}">
+								<Image FileName="957412393" Left="59" Top="112" Right="1395" Bottom="1355" />
+								<TypeInfo Item0="{5B72ACAF-D5F8-4EF2-B525-3026918B6160}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demowebshop.tricentis.com/checkout/completed/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="buttonContinue" Key="{2E5089CF-9E93-4504-B9CC-35DE21E31C36}">
+										<Image FileName="-965115458" Left="283" Top="472" Right="351" Bottom="494" />
+										<TypeInfo Item0="{6C55E863-4AC0-4926-AC05-701A11AB79F9}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Continue&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;button-2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{9A66A226-7C7E-460F-8809-C2B8150C1D1D}">
+			<Child Name="BrowserWindow" Owner="{AD79E77A-007C-40FC-94C1-08DFEFF2A74E}" />
+			<Child Name="pageDemoWebShop" Owner="{4AEC13E9-5C05-42EF-BDC3-A3CCBC274548}">
+				<Child Name="linkLogIn" Owner="{B27D8E47-610B-4976-98A1-EBC931B245A0}" />
+				<Child Name="textnodeBooks" Owner="{4D73F3FA-1E96-4569-98A3-6EE8F5AE1566}">
+					<Child Name="linkApparelShoes" Owner="{D7957F30-CA20-4D5A-9DE8-21B2E625300E}" />
+				</Child>
+				<Child Name="linkTorsteinKjempholCapgeminiTes" Owner="{08476C85-D6FE-4F70-B38D-B303ED2E7F44}" />
+				<Child Name="linkLogOut" Owner="{55FE6BEE-C4B7-4CE8-80B8-E76F0E090E0C}" />
+			</Child>
+			<Child Name="pageLogin" Owner="{3B4F2EAF-F4D8-4B1B-A243-F1A2E84C5BBE}">
+				<Child Name="textboxEmail" Owner="{7C1A519F-BCF8-4948-A251-CF5CB2FF9FB0}" />
+				<Child Name="passwordboxPassword" Owner="{47F744BF-5D85-4A44-BE38-243904FF8D45}" />
+				<Child Name="submitbuttonLogIn" Owner="{A0C77AE8-28C0-4A0A-9FB5-6343C08F9A55}" />
+			</Child>
+			<Child Name="pageApparelShoes" Owner="{54998FC8-8A97-455A-978D-063F3D3C03D7}">
+				<Child Name="textnodeBlueJeans" Owner="{D3916433-29AB-4C29-83BB-61FFDFE89D23}">
+					<Child Name="linkBlueJeans" Owner="{6BC8064E-B4EE-4175-A96B-CF7B505618F8}" />
+					<Child Name="linkBlueJeans2" Owner="{C51F2748-9840-4709-8D47-4BA116DA4221}" />
+				</Child>
+			</Child>
+			<Child Name="pageBlueJeans" Owner="{EACA1FA0-5B41-49B4-872D-5347CE3FC7BD}">
+				<Child Name="formProductDetailsForm" Owner="{AC994C15-F0B1-47C9-A93B-CB0A67E1D4E7}">
+					<Child Name="textboxQty" Owner="{6387B270-3BBE-4D59-B65B-CBE704F5F7CD}" />
+					<Child Name="buttonAddToCart" Owner="{3D134D70-EFB9-43FE-991D-3DB88431CAA4}" />
+				</Child>
+				<Child Name="textnodeTopcartlink" Owner="{9306EE1C-42A6-4800-990D-58C4F5F1C99D}">
+					<Child Name="linkShoppingCart" Owner="{6E396905-B26F-49C9-BBD9-5A0FF244057E}">
+						<Child Name="textnodeShoppingCart" Owner="{97E35223-EC63-4A74-B283-161A4BB872AA}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageCart" Owner="{F510D949-26E5-4E6B-8B37-D491AED91493}">
+				<Child Name="selectCountry" Owner="{DBB0019C-D29A-4EB3-9503-0C43001649F6}" />
+				<Child Name="submitbuttonEstimateShipping" Owner="{5D35F218-3A83-4B6B-8B06-838427675F47}" />
+				<Child Name="buttonCheckout" Owner="{A0EBB3DE-B272-4974-ABE9-3906D23DACD3}" />
+				<Child Name="buttonClose" Owner="{15DFD2FB-C7B8-4DBB-9AD1-31E4C9F1C368}" />
+				<Child Name="checkboxTermsofservice" Owner="{9473D172-CC81-4B6A-9616-9DA9216F4C44}" />
+			</Child>
+			<Child Name="pageOnepagecheckout" Owner="{E0BD6A47-48B2-4A22-AEFC-B811E71B240D}">
+				<Child Name="textnodeCheckoutSteps" Owner="{71A2CA00-A82C-4BC3-85ED-A083094210A7}">
+					<Child Name="formCoBillingForm" Owner="{09A1F854-DC7F-4DB7-8E0B-19A6CF4A65CF}">
+						<Child Name="selectCountry" Owner="{26B59A0B-EF5F-4974-B3E5-5F49B3B934DF}" />
+						<Child Name="textboxCity" Owner="{179998B2-F5D3-44C2-BF9A-8BAC5041A69D}" />
+						<Child Name="textboxAddress1" Owner="{2AF76219-084C-490A-BDBE-80A54FC02BCF}" />
+						<Child Name="textboxZipPostalCode" Owner="{05861E94-8D34-4C6D-A16C-649E04750703}" />
+						<Child Name="textboxPhoneNumber" Owner="{DBA6B72D-1870-4610-B3CB-881A625CB132}" />
+					</Child>
+					<Child Name="buttonContinue" Owner="{FA4B3DA8-1580-41D3-92D2-47B48AB4A1EE}" />
+					<Child Name="buttonContinue2" Owner="{49A6F75F-4AD2-4E86-B711-50B4ACD3D9C7}" />
+					<Child Name="formCoShippingMethodForm" Owner="{7554FD2C-17AB-421F-A70C-045B95E622FA}">
+						<Child Name="textnodeGround1000" Owner="{3C5446CD-6C7C-4184-8042-B9ADFF5EEDF9}">
+							<Child Name="radiobuttonGround1000" Owner="{ACF45119-3B00-4AF4-9BFC-E84FEB33BA0D}" />
+						</Child>
+						<Child Name="buttonContinue3" Owner="{8E21A6A0-4B1C-4C4F-9345-86822ACBD37B}" />
+					</Child>
+					<Child Name="formCoPaymentMethodForm" Owner="{82F7B954-70F2-4AF9-89E7-BF1AADEF5D9D}">
+						<Child Name="textnodeCashOnDeliveryCod700" Owner="{7A15409D-3FDB-4202-BF52-DCD4EC7B82FF}">
+							<Child Name="radiobuttonCreditCard" Owner="{8FBE26C1-938E-464F-894F-BD535C43E43E}" />
+							<Child Name="radiobuttonPurchaseOrder" Owner="{71DCC2F2-F7A2-477F-963B-22CBB1647843}" />
+						</Child>
+					</Child>
+					<Child Name="buttonContinue4" Owner="{7CF69540-1FB1-4509-8A32-AA876AA00350}" />
+					<Child Name="formCoPaymentInfoForm" Owner="{56279080-BD25-4779-92B3-BECB2A880250}">
+						<Child Name="textboxCardholderName" Owner="{3DC34632-1FDD-4BE2-B48C-E5D6E6170B1F}" />
+						<Child Name="textboxCardNumber" Owner="{CFFD7810-CAC5-4AA3-B7FB-D584E614D962}" />
+						<Child Name="selectExpireyear" Owner="{04DCD974-281C-432F-85B8-914968D20DA9}" />
+						<Child Name="textboxCardCode" Owner="{C2BA799B-47B5-44DD-8FE2-00E103C66E2B}" />
+						<Child Name="selectCreditcardtype" Owner="{2DE818B4-5189-4E1E-96F5-8602B77341A6}" />
+						<Child Name="textboxPoNumber" Owner="{0DF87939-8ED4-4287-9419-8538A8C58EC0}" />
+					</Child>
+					<Child Name="buttonContinue5" Owner="{60BEBBC7-7A9A-4C48-85B8-36EADC6B3DF1}" />
+					<Child Name="textnode6000" Owner="{8DADE417-E959-477C-B923-7DFF061CB944}" />
+					<Child Name="textnode5000" Owner="{D4C4AF3D-FADE-474B-A63E-7436DDF665E8}" />
+					<Child Name="textnode1000" Owner="{579B4CCC-802B-4953-ACE8-F49073BC934A}" />
+					<Child Name="buttonConfirm" Owner="{21680E42-5339-45F9-919F-F29CBB36B18F}" />
+				</Child>
+			</Child>
+			<Child Name="pageDemowebshopTricentisComCheck" Owner="{DC5D7A30-45BA-4CDA-9014-DEB55BED277C}">
+				<Child Name="buttonContinue" Owner="{2E5089CF-9E93-4504-B9CC-35DE21E31C36}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
