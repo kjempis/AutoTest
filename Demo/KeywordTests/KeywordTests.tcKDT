@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="Buy_Blue_Jeans_with_PO" key="{37548910-0501-4CCF-9FA8-C36E203F8F98}" path="Buy_Blue_Jeans_with_PO.tcKDTest" />
+		<child name="Login_fail" key="{32C6A9CD-4624-41E0-A26C-CA91D88239C3}" path="Login_fail.tcKDTest" />
+	</children>
+</Root>
